@@ -5,6 +5,42 @@
 implement the code verification on the subsystem, using the RTC RAM
 
 
+**Interface for Project:**
+
+   C
+
+**Hardware:**
+ 
+ **link:** https://www.st.com/resource/en/user_manual/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf
+
+    STM32 Nucleo-64, L476RG board
+    
+    Core: ARM®32-bit Cortex®-M4 CPU
+
+    Operating Supply Voltage: 3.3V,5V,7V to 12V
+    
+    VDD: 1.71V to 3.6V
+
+**Components:**
+    
+    • Analog buzzer 
+        
+    • Red Led
+    
+    • Blue Led
+            
+    • Rtc 
+    
+**Communication:**
+    
+    • UART Protocol 
+    
+    • I2C Protocol 
+    
+
+
+**Procedure:**
+
 1. The system admin will enter a numeric 4-to-8-digit code 
 
 2. Will convert it to an integer and will save it into the  RTC RAM under the known address  
